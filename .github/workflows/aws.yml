@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: trial/todoapp           # set this to your Amazon ECR repository name
   ECS_SERVICE: ecs-todoapp-taskdef-service-e0wli47f                 # set this to your Amazon ECS service name
   ECS_CLUSTER: ecs-todo-app                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: .aws\ecs-todoapp-taskdef-revision5.json # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: .aws/ecs-todoapp-taskdef-revision5.json # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: todo-frontend           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
