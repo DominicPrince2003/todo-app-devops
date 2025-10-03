@@ -6,6 +6,7 @@ export default function Home() {
     { task: "Sample Task 2" },
     { task: "Sample Task 3" },
     { task: "Sample Task 4" },
+     { task: "Sample Task 5" }
   ]);
   const [newTask, setNewTask] = useState("");
 
